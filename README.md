@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# jobpilot-ai
+JobPilot AI is an AI-powered career discovery platform designed for students, fresh graduates, and early-career professionals. It provides personalized job recommendations based on skills, qualifications, experience, and career interests using Next.js, Supabase, n8n automation, and Google Gemini AI.
+# JobPilot AI — Your Career Navigator
 
-## Getting Started
+**Discover • Connect • Grow**
 
-First, run the development server:
+JobPilot AI is an AI-powered career discovery platform designed to help students, fresh graduates, and early-career professionals discover relevant employment opportunities based on their educational qualifications, skills, work experience, preferred locations, and career interests.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Objectives
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Simplify job discovery by bringing opportunities from multiple employer career platforms into one centralized system.
+- Provide personalized job recommendations based on individual career profiles.
+- Use AI-assisted analysis to extract job requirements, skills, qualifications, and experience criteria.
+- Help candidates access genuine vacancies through direct employer application links.
+- Automate the collection, classification, and updating of job opportunities.
+- Support opportunities across marketing, business development, operations, supply chain, FMCG, agribusiness, category management, business analytics, and related fields.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Technology | Purpose |
+|---|---|
+| Next.js | Web application and user interface |
+| React & TypeScript | Frontend functionality |
+| Tailwind CSS | Responsive design and styling |
+| Supabase | Authentication and PostgreSQL database |
+| n8n | Job collection and workflow automation |
+| Google Gemini AI | Job description analysis and classification |
+| GitHub | Source code management |
+| Vercel | Planned cloud deployment |
 
-## Learn More
+## Implemented Features
 
-To learn more about Next.js, take a look at the following resources:
+- User registration and authentication
+- Personalized career profiles
+- Skills, qualifications, experience, and job preferences
+- Rule-based job relevance scoring
+- Searchable job recommendations
+- Direct employer application links
+- Supabase integration
+- Initial employer job collection through n8n
+- AI-assisted job information extraction
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Development Roadmap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Expand job discovery across multiple companies and Karnataka districts
+- Implement daily automated vacancy updates
+- Prevent duplicate job listings
+- Verify eligibility and job authenticity before publication
+- Improve AI-assisted job matching
+- Enable personalized daily email notifications
+- Deploy the platform for public access
 
-## Deploy on Vercel
+## Vision
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To build an accessible, intelligent, and student-focused career discovery platform that reduces the effort of finding suitable employment opportunities and helps candidates make more informed career decisions.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Project Status:** Under active development. Some automation, verification, and notification features are not yet available.
